@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Brian Launches Site"
+title: "Site launch"
 date: 2020-06-14
 ---
 
