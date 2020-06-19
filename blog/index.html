@@ -9,3 +9,11 @@ title: Brian Loh's Blog
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+
+	<h1>{{ "Grow with Bloh" }}</h1>
+	<ul class="posts">
+
+	  {% for post in site.garden %}
+	    <li><span>{{ garden.date | date_to_string }}</span> » <a href="{{ garden.url }}" title="{{ garden.title }}">{{ garden.title }}</a></li>
+	  {% endfor %}
+	</ul>
