@@ -1,8 +1,7 @@
-
 ---
 layout: post
-title: "Cooking test"
-date: 2020-06-21
+title: "cooking test"
+date: 2020-06-20
 category: cooking
 ---
 
