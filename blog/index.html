@@ -16,7 +16,7 @@ title: Brian Loh's Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-		{% if post.categories contains "3DP" %}
+		{% if post.categories contains "printing" %}
 	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  	{% endif %}
 	{% endfor %}
